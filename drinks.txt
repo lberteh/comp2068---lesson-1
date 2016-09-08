@@ -1,0 +1,10 @@
+water
+gin
+tonica
+coffee
+whiskey
+milk
+coke
+tea
+beer
+vodka
