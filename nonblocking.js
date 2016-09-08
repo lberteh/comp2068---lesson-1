@@ -18,13 +18,13 @@ console.log('FOOD');
 
 
 // load drinks asynchronously
-var drinks = fs.readFile('drinks.txt', 'utf8', function(err, aaa){
+var drinks = fs.readFile('drinks.txt', 'utf8', function(err, drinks){
     // display food list when done
     if(err) {
       console.log(err);
     }
     else {
-      console.log(aaa);
+      console.log(drinks);
     }
 
 });
